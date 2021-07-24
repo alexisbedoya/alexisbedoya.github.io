@@ -34,11 +34,12 @@ function App() {
           <Header />
             <Switch>
               <Route
+              exact
                 path={RouteNavigation.Home}
                 component={Home}
               ></Route>
                <Route
-                
+                exact
                 path={RouteNavigation.Thanks}
                 component={Thanks}
               ></Route>
