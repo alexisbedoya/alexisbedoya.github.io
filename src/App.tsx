@@ -34,12 +34,11 @@ function App() {
           <Header />
             <Switch>
               <Route
-                extact
                 path={RouteNavigation.Home}
                 component={Home}
               ></Route>
                <Route
-                extact
+                
                 path={RouteNavigation.Thanks}
                 component={Thanks}
               ></Route>
